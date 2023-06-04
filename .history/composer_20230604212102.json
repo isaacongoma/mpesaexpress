@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "isaacshisia@gmail.com",
+            "homepage": "https://goldtech.co.ke",
+            "name": "Goldtech Inc",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Osen\\Mpesa\\": "src/"
+        }
+    },
+    "description": "Experience seamless integration with our intuitive and comprehensive M-PESA SDK for PHP applications. Simply plug and play to enhance your functionality.",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "name": "isaacongoma/mpesaexpress",
+    "readme": "README.md",
+    "require": {
+        "php": "*"
+    },
+    "support": {
+        "email": "isaacshisia@gmail.com",
+        "issues": "https://github.com/isaacongoma/mpesaexpress/issues"
+    },
+    "type": "library"
+}
