@@ -12,7 +12,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Ongoma\\UnityPayment\\": "src/"
+            "Ongoma\\UnityPayment\\LipaNaMpesa\\": "src/"
         }
     },
     "description": "Experience seamless integration with our intuitive and comprehensive M-PESA SDK for PHP applications. Simply plug and play to enhance your functionality.",
