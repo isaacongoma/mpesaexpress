@@ -1,6 +1,6 @@
 <?php
 
-namespace Ongoma\UnityPayment\LipaNaMpesa;
+namespace Ongoma\UnityPayment;
 
 use Ongoma\UnityPayment\LipaNaMpesa\Service;
 

@@ -1,7 +1,6 @@
 <?php
 
-namespace Ongoma\UnityPayment\LipaNaMpesa;
-
+namespace Ongoma\UnityPayment\LipaNaMpesa\LipaNaMpesa;namespace Ongoma\UnityPayment\LipaNaMpesa;
 use Ongoma\UnityPayment\LipaNaMpesa\Service;
 
 class C2B extends Service

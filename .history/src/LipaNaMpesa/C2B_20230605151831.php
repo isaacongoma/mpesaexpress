@@ -2,7 +2,7 @@
 
 namespace Ongoma\UnityPayment\LipaNaMpesa;
 
-use Ongoma\UnityPayment\LipaNaMpesa\Service;
+use Ongoma\UnityPayment\Service;
 
 class C2B extends Service
 {
