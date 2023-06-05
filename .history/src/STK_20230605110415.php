@@ -35,13 +35,13 @@ class STK extends Service
             : "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest";
 
         $curl_post_data = array(
-            "BusinessShortCode" => parent::$config->shortcode,
+            "BusinessShortCode" => parent::$config->headoffice,
             "Password"          => $password,
             "Timestamp"         => $timestamp,
-            "TransactionType"   => parent::$config->type,
+            "TransactionType"   => (parent::$config->type == 4) ? "CustomerPayBillOnline" : "CustomerBuyGoodsOnline",
             "Amount"            => round($amount),
             "PartyA"            => $phone,
-            "PartyB"            => (parent::$config->type == 'CustomerPayBillOnline') ? parent::$config->shortcode : parent::$config->headoffice,
+            "PartyB"            => parent::$config->shortcode,
             "PhoneNumber"       => $phone,
             "CallBackURL"       => parent::$config->callback_url,
             "AccountReference"  => $reference,
