@@ -1,8 +1,8 @@
 <?php
 
-namespace Ongoma\Mpesa;
+namespace Ongoma\LipaNaMpesa\Mpesa;
 
-use Ongoma\Mpesa\Service;
+use Ongoma\LipaNaMpesa\Mpesa\Service;
 
 class STK extends Service
 {

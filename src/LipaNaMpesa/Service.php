@@ -1,6 +1,6 @@
 <?php
 
-namespace Ongoma\Mpesa;
+namespace Ongoma\LipaNaMpesa\Mpesa;
 
 class Service
 {
