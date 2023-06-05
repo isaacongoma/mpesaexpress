@@ -49,7 +49,7 @@ class STK extends Service
             "Remark"            => $remark,
         );
 
-        $response = parent::post($endpoint, $curl_post_data);
+        $response = parent::remote_post($endpoint, $curl_post_data);
         $result   = json_decode($response, true);
 
         return is_null($callback)
