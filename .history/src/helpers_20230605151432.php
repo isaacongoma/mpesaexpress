@@ -7,7 +7,7 @@
 if (!function_exists("mpesa_setup_mpesa")) {
     function mpesa_setup_config($config = [], $api = "C2B")
     {
-        $API = "Ongoma\\UnityPayment\\{$api}";
+        $API = "Ongoma\\LipaNaMpesa\\Mpesa\\{$api}";
         return $API::init($config);
     }
 }
